@@ -1,0 +1,17 @@
+.sneakers__favourite {
+  padding: 0 60px;
+  margin-bottom: 40px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    p {
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: #000000;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.header {
+
+  &__right{
+
+    &__bucket__img {
+      margin-right: 10px;
+    }
+  }
+}
+
+.header__right__favourite__img,
+.sneakers__input__clean,
+.sneakers__card__up__img,
+.sneakers__card__down__img,
+.sneakers__bucket__card__img,
+.sneakers__bucket__back,
+.sneakers__favourite__back__img {
+  cursor: pointer;
+  transition: transform .1s linear;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.sneakers__input__search,
+.sneakers__input__clean {
+  position: absolute;
+  top: 15px;
+  z-index: 2;
+}
+
+.sneakers__input__search {
+  left: 18px;
+}
+
+.sneakers__input__clean {
+  right: 18px;
+}
+
+.sneakers__card {
+
+  &__up__img {
+    top: 30px;
+    left: 30px;
+  }
+
+  &__down__img {
+    bottom: 30px;
+    right: 30px;
+  }
+
+  &__up__img, &__down__img {
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+.sneakers__bucket__card__img {
+  min-width: 32px;
+}
+
+.btn {
+
+  &__arrow__right {
+    margin-left: 20px;
+  }
+
+  &__arrow__left {
+    margin-right: 20px;
+  }
+}
+
+.sneakers__favourite__back__img {
+  margin-right: 20px;
+}
+
+

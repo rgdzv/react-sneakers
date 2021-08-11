@@ -1,0 +1,19 @@
+.sneakers__error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #9B9B9B;
+}
+
+.row {
+
+  &::after {
+    content: "";
+    //flex: 1;
+    flex-basis: 22.5%;
+    justify-content: flex-start;
+  }
+}

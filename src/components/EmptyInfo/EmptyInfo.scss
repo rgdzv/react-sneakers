@@ -1,0 +1,38 @@
+.empty__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+
+  .empty__bucket {
+    width: 120px;
+    height: 120px;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 40px;
+    line-height: 24px;
+  }
+}

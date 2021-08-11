@@ -1,0 +1,29 @@
+.btn {
+  padding: 18px 30px;
+  background: #9dd558;
+  border-radius: 18px;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  transition: background 0.1s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--order {
+    width: 100%;
+    flex-direction: row-reverse;
+
+    &:disabled {
+      background: rgb(165, 165, 165);
+      cursor: default;
+    }
+  }
+
+  &:hover:enabled {
+    background: darken(#9dd558, 10%);
+  }
+}
+
